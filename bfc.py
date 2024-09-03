@@ -27,7 +27,7 @@ def get_args(argv) -> tuple[argparse.ArgumentParser, argparse.Namespace]:
 
     args = aparser.parse_args(argv)
     return aparser, args
-
+ 
 if __name__ == "__main__":
     begin_time = monotonic()
     # get and verify args
