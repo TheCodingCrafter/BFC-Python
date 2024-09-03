@@ -6,7 +6,7 @@ Python-based Brainfuck compiler and interpreter.
 
 ## Features
 - Compiles Brainfuck to C++
-- Supports preprocessing and optimization options
+- Supports preprocessing
 - Generates standalone executables
 
 ## Usage
@@ -14,5 +14,15 @@ Python-based Brainfuck compiler and interpreter.
 2. Output executable generated in same directory
 
 ## Dependencies
-- Python 3.x
+- Python 3.10+
 - ply library for lexer/parser
+
+## Better BF format
+- Optional syntactic sugar for bf
+```cpp
+Original:
++++++[------]
+
+Revised:
++5[-6]
+```
