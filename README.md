@@ -10,7 +10,7 @@ Python-based Brainfuck compiler and interpreter.
 - Generates standalone executables
 
 ## Usage
-1. Run `python bfc.py <input.bf>`
+1. 'bfc.py <INPUT_FILE> [-h] [-o OUTPUT_FILE] [-p] [-v] [--allow-loop-extension] [--do-not-optimize] [--show-w] [--show-c]'
 2. Output executable generated in same directory
 
 ## Dependencies
@@ -26,3 +26,4 @@ Original:
 Revised:
 +5[-6]
 ```
+(use --allow-loop-extension as a command line argument to allow this behaviour on loops ('[' & ']'))
