@@ -5,7 +5,7 @@ Python-based Brainfuck compiler and interpreter.
 - You can explore the provided sample programs [here](examples/)
 
 ## Features
-- Compiles Brainfuck to C++
+- Compiles Brainfuck to an executable OR C++ source
 - Supports preprocessing
 - Generates standalone executables
 
