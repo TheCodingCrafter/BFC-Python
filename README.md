@@ -1,11 +1,8 @@
 # Brainfuck Compiler (BFC)
 Python-based Brainfuck compiler and interpreter.
 
-## Key Components
-- `bfc.py`: Main compiler script
-- `lexer.py`: Lexical analysis module  
-- `parser.py`: Syntax parsing module
-- `examples/`: Sample Brainfuck programs
+## Samples
+- You can explore the provided sample programs [here](examples/)
 
 ## Features
 - Compiles Brainfuck to C++
