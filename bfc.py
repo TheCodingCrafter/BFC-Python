@@ -22,7 +22,7 @@ import parser
 from time import monotonic
 
 # consts
-VERSION = "1.0.1"
+VERSION = "0.1.0-alpha"
 
 START_MESSAGE = '''BFC  Copyright (C) 2024  TheCodingCrafter
 This program comes with ABSOLUTELY NO WARRANTY; for details use `--show-w'.

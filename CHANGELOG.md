@@ -1,8 +1,6 @@
-# V1.0.0
 ## Fixes
-PATCH: Fixed faulty regex causing comments containing newlines to not match.
+PATCH: Fixed faulty regex causing comments containing newlines to not match. (v0.0.1)
 
 ## Features
-### V1.0.1
 MINOR: Added functionality for the `--allow-loop-extension` argument
-MINOR: Added syntax checks for loops to ensure loops are always closed. (TODO: it seems to sometimes let a missing end bracket slip through?)
+MINOR: Added syntax checks for loops to ensure loops are always closed. (TODO: it seems to sometimes let a missing end bracket slip through?) (v0.1.0)
