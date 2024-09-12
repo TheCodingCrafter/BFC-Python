@@ -10,12 +10,12 @@ Python-based Brainfuck compiler and interpreter.
 - Generates standalone executables
 
 ## Usage
-1. 'bfc.py <INPUT_FILE> [-h] [-o OUTPUT_FILE] [-p] [-v] [--allow-loop-extension] [--do-not-optimize] [--show-w] [--show-c]'
-2. Output executable generated in same directory
+'bfc.py <INPUT_FILE> [-h] [-o OUTPUT_FILE] [-p] [-v] [--allow-loop-extension] [--do-not-optimize] [--show-w] [--show-c]'
 
 ## Dependencies
 - Python 3.10+
 - ply library for lexer/parser
+- g++ compiler (currently only supports g++)
 
 ## Better BF format
 - Optional syntactic sugar for bf
